@@ -1,7 +1,7 @@
 # How to Connect to an Access Point 
 ## Getting Started
 1. Open your Arduino Sketch page and write in the following code: 
-     ```
+     ```ino
      #include <ESP8266WiFi.h>
      #include <ESP8266WebServer.h>
      ```
@@ -21,7 +21,7 @@ ESP8266WebServer server(80);
 
 3. Next create a void setup function and write in the above code to start the connection to your network
 
-```
+```ino
 void setup()
 {
   pinMode(pin_led, OUTPUT);
