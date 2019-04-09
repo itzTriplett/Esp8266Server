@@ -5,7 +5,7 @@
      #include <ESP8266WiFi.h>
      #include <ESP8266WebServer.h>
      ```
-- Begin by adding the necessary libraries using the #include directive at the top of the page.
+- We'll begin by adding the necessary libraries using the #include directive at the top of the page.
 
 ## Connecting to the Access Point
 
