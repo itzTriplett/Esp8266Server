@@ -34,7 +34,8 @@ void setup()
     delay(500);
   }
   ```
-## Coding Your Web Server ####### (cont.)
+## Coding Your Web Server 
+###### (cont.)
 
 4. On the following lines write in the serial print methods so you can call for your device’s IP Address. 
 5. Then you can begin writing the code for your web server. For now we’ll just display the message “Hello World!” 
@@ -50,4 +51,5 @@ Serial.println("");
 void loop()
 {
   server.handleClient();
-}```
+}
+```
