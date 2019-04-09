@@ -3,7 +3,6 @@
 1. Open your Arduino Sketch page and write in the following code: 
      ```
      #include <ESP8266WiFi.h>
-     #include <WiFiClient.h>
      #include <ESP8266WebServer.h>
      ```
 - Begin by adding the necessary libraries using the #include directive at the top of the page.
@@ -40,7 +39,41 @@ void setup()
 4. On the following lines write in the serial print methods so you can call for your device’s IP Address. 
 5. Then you can begin writing the code for your web server. For now we’ll just display the message “Hello World!” 
 ```
-Serial.println("");
+  Serial.println("");
+  Serial.print("IP Address: ");
+  Serial.println(WiFi.localIP());
+
+  server.on("/",[](){server.send(200,"text/plain","Hello World!");});
+  server.begin();
+}
+
+void loop()
+{
+  server.handleClient();
+}
+```
+## The Ending Code 
+6. Once you’ve written in all the code from the previous slides your end result should mirror the code below. If it does you can go ahead and upload your code to the board. 
+```
+#include <ESP8266WiFi.h>
+#include <ESP8266WebServer.h>
+
+ESP8266WebServer server;
+uint8_t pin_led = 16;
+char* ssid = "sophia-shield-office-qa";
+char* password = "belkin123";
+
+void setup()
+{
+  pinMode(pin_led, OUTPUT);
+  WiFi.begin(ssid,password);
+  Serial.begin(115200);
+  while(WiFi.status()!=WL_CONNECTED)
+  {
+    Serial.print(".");
+    delay(500);
+  }
+  Serial.println("");
   Serial.print("IP Address: ");
   Serial.println(WiFi.localIP());
 
