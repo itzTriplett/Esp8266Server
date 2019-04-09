@@ -1,6 +1,6 @@
 # How to Connect to an Access Point 
 ## Getting Started
-1. Open your Arduino Sketch page and write in the following code: 
+1. Open your Arduino Sketch page and paste in the following code: 
      ```ino
      #include <ESP8266WiFi.h>
      #include <ESP8266WebServer.h>
@@ -19,7 +19,7 @@ ESP8266WebServer server(80);
 
 ## Coding Your Web Server
 
-3. Next create a void setup function and write in the above code to start the connection to your network
+3. Next create a void setup function and paste in the below code to start the connection to your network
 
 ```ino
 void setup()
@@ -36,7 +36,7 @@ void setup()
 ## Coding Your Web Server 
 ###### (cont.)
 
-4. On the following lines write in the serial print methods so you can call for your device’s IP Address. 
+4. On the lines that follow paste in the serial print methods so you can call for your device’s IP Address. 
 5. Then you can begin writing the code for your web server. For now we’ll just display the message “Hello World!” 
 ```ino
   Serial.println("");
@@ -53,7 +53,7 @@ void loop()
 }
 ```
 ## The Ending Code 
-6. Once you’ve written in all the code from the previous slides your end result should mirror the code below. If it does you can go ahead and upload your code to the board. 
+6. Once you’ve pasted in all the code from the previous slides your end result should mirror the code below. If it does you can go ahead and upload your code to the board. 
 ```ino
 #include <ESP8266WiFi.h>
 #include <ESP8266WebServer.h>
