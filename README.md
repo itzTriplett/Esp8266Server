@@ -18,3 +18,19 @@ const char* password = "PASSWORD"
 ESP8266WebServer server(80);
 ```
 
+## Coding Your Web Server
+
+3. Next create a void setup function and write in the above code to start the connection to your network
+
+```
+void setup()
+{
+  pinMode(pin_led, OUTPUT);
+  WiFi.begin(ssid,password);
+  Serial.begin(115200);
+  while(WiFi.status()!=WL_CONNECTED)
+  {
+    Serial.print(".");
+    delay(500);
+  }
+  ```
