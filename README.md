@@ -8,6 +8,8 @@
      ```
 - Begin by adding the necessary libraries using the #include directive at the top of the page.
 
+## Connecting to the Access Point
+
 2. Put the name of the network you want to connect to inplace of “SSID NAME” and do the same with the password of that network on the following line. 
 ```
 const char* ssid = "SSID NAME"
