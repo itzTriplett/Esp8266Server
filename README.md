@@ -1,4 +1,4 @@
-### How to Connect to an Access Point 
+# How to Connect to an Access Point 
 ## Getting Started
 1. Open your Arduino Sketch page and write in the following code: 
      ```
@@ -34,3 +34,20 @@ void setup()
     delay(500);
   }
   ```
+## Coding Your Web Server ####### (cont.)
+
+4. On the following lines write in the serial print methods so you can call for your device’s IP Address. 
+5. Then you can begin writing the code for your web server. For now we’ll just display the message “Hello World!” 
+```
+Serial.println("");
+  Serial.print("IP Address: ");
+  Serial.println(WiFi.localIP());
+
+  server.on("/",[](){server.send(200,"text/plain","Hello World!");});
+  server.begin();
+}
+
+void loop()
+{
+  server.handleClient();
+}```
