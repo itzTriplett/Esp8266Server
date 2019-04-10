@@ -92,4 +92,7 @@ void loop()
 ![Screen Shot 2019-04-10 at 11 37 48 AM](https://user-images.githubusercontent.com/25018497/55904681-4d780500-5b85-11e9-9b32-554628a53191.png)
 ##### 8. Press the restart button on your physical board then copy the IP address that appears.
 ![Screen Shot 2019-04-10 at 11 47 36 AM](https://user-images.githubusercontent.com/25018497/55905255-7baa1480-5b86-11e9-95f1-d114a2448686.png)
+##### 9. Paste the IP address into a search bar and congratulations, you've successfully navigated to your web server!
+![Screen Shot 2019-04-02 at 10 11 12 AM](https://user-images.githubusercontent.com/25018497/55911670-ef075280-5b95-11e9-8eac-61f72ef5e345.png)
+
 
