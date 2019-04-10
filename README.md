@@ -9,7 +9,7 @@
 
 ## Connecting to the Access Point
 
-2. Put the name of the network you want to connect to inplace of “SSID NAME” and do the same with the password of that network on the following line. 
+2. Put the name of the network you want to connect to inplace of “SSID NAME” then enter the password for that network on the next line inplace of "PASSWORD"
 ```ino
 const char* ssid = "SSID NAME"
 const char* password = "PASSWORD"
