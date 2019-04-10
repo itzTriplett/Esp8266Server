@@ -87,6 +87,6 @@ void loop()
 }
 ```
 ## Getting to Your Web Server!
-7. Follow the instrunctions below to successfully get to your web server. 
+7. Click the magnifying glass in the upper right corner of your sketch page.
 
 ![Screen Shot 2019-04-10 at 11 37 48 AM](https://user-images.githubusercontent.com/25018497/55904681-4d780500-5b85-11e9-9b32-554628a53191.png)
