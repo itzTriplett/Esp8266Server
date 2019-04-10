@@ -87,7 +87,7 @@ void loop()
 }
 ```
 ## Getting to Your Web Server!
-###### ** 7. Click the magnifying glass in the upper right corner of your sketch page. **
+ ##### 7. Click the magnifying glass in the upper right corner of your sketch page. 
 
 ![Screen Shot 2019-04-10 at 11 37 48 AM](https://user-images.githubusercontent.com/25018497/55904681-4d780500-5b85-11e9-9b32-554628a53191.png)
 ###### 8. Press the restart button on our physical board and then copy the IP address that appears shortly after.
